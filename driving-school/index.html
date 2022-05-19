@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-color">
+            <div class="container-xxl">
+              <a class="navbar-brand logo" href="#">Логотип</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown ticons-group">
+                      <img src="imgs/flag14-18.png" alt="">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Выберите адресс
+                    </a>
+                    <ul class="dropdown-menu dropdown-shadow" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item link" href="#">Ул. Первая, 5–1</a></li>
+                        <li><a class="dropdown-item link" href="#">Ул. Вторая, 22–1</a></li>
+                        <li><a class="dropdown-item link" href="#">Ул. Третья, 119</a></li>
+                        <li><a class="dropdown-item link" href="#">Ул. Четвертая, 14</a></li>
+                        <li><a class="dropdown-item link" href="#">Пр. Пятый, 11–1</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item ticons-group">
+                      <img src="imgs/letter18-15.png" alt="">
+                      <a class="nav-link" href="#"><p class="fat">info@asp.ru</p></a>
+                  </li>
+                  <li class="nav-item ticons-group">
+                      <img src="imgs/phone18-18.png" alt="">
+                      <a class="nav-link" href="#"> <p class="fat">(999) 999–99–99</p></a>
+                      <a class="nav-link" href="#"><p class="fat">(111) 111–11–11</p></a>
+                  </li>
+                  <li class="nav-item">
+                      <div class="gradient">
+                        <button type="button" class="btn-primary allo btn-red" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать звонок</button>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <nav class="nav-menu">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="col">
+                        <a class="nav-link link" href="">Категории</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link link" href="">Филиалы</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link link" href="">Преподаватели</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link link" href="">Инструкторы</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link link" href="">Наш автопарк</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link link" href="">Наш автодром</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link link" href="">Отзывы</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link link" href="">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">    
+                <div class="modal-body" style="background-color:rgba(241, 241, 241, 1); border-radius: 10px;">
+                    <div class="connection__form" style="height: 436px">
+                        <div class="form">
+                            <h2>Оставьте свои контактные данные</h2>
+                            <input  class="form__user name" type="text" placeholder="Имя">
+                            <input class="form__user phone" type="text" placeholder="Телефон">
+                            <div class="checkbox">
+                                <input type="checkbox" name="" id=""> <p style="padding: 10px; margin: 0;"> я согласен <a class="privacy-policy" href="https://pbs.twimg.com/media/EGDi5dNXUAMhBTR.jpg"> с политикой конфидециальности</a></p>
+                            </div>
+                            <button class="allo btn-red btn-primary">Отправить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="title">
+            <div class="container-fluid title-bg p-0">
+                <div class="title__gradient"></div>
+                <div class="title-box">
+                <div class="container-xxl" style="height:460px;">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="title__text">
+                                <h1 class="title__title">Автошкола в Санкт-Петербурге</h1>
+                                <p>Проходите обучение как вам удобно — в группе выходного дня, по вечерам или онлайн</p>
+                                <button class="allo btn-red">Записаться</button>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="bmv-green"></div>
+                            <div class="bmv"><img src="imgs/bmw.png" alt=""></div>    
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="title__ticker">
+                    <marquee>Специальные предложения и акции
+                        Специальные предложения и акции
+                        Специальные предложения и акции
+                        Специальные предложения и акции
+                        Специальные предложения и акции
+                    </marquee>
+                </div>
+            </div>
+        </div>
+
+        <div class="classrooms">
+            <div class="container-xxl">
+                <h2 class="classrooms__title">Наши филиалы</h2>
+                <div class="classrooms__box">
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="classrooms__btns allo btn-green">учебные классы</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="classrooms__btns allo btn-white">Автодром</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">    
+                            <div class="classrooms__item">
+                                <img src="imgs/flag24-33.png" alt="">
+                                <p>Пр. Первый, 31–1</p>    
+                            </div>
+                        </div>
+                        <div class="col">    
+                            <div class="classrooms__item">
+                                <img src="imgs/flag24-33.png" alt="">
+                                <p>Ул. Вторая, 5–1</p>    
+                            </div>
+                        </div>
+                        <div class="col">    
+                            <div class="classrooms__item">
+                                <img src="imgs/flag24-33.png" alt="">
+                                <p>Пр. Третий, 11–1</p>    
+                            </div>
+                        </div>
+                        <div class="col">    
+                            <div class="classrooms__item">
+                                <img src="imgs/flag24-33.png" alt="">
+                                <p>Ул. Четвертая, 22–1</p>    
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructors">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-9 p-0">
+                                <div class="instructors__title">
+                                    <h2>Наши инструкторы</h2>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0">
+                                <div class="instructors__name">
+                                    <h3>Любимов Игорь Юрьевич</h3>
+                                    <p>Стаж вождения с 1996 г.
+                                        Инструктор с 2002 г.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="instructors__text">
+                                <p>Каждый инструктор имеет свидетельство, предоставляющее право на обучение вождению автотранспортными средствами. Все инструкторы проходят повышение квалификации по программе «Преподаватель автомобильной школы по обучению практике управления автотранспортным средством»</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-0">
+                        <div class="slider-box">
+
+                            
+
+                            <div class="box__bg"></div>
+                            <div class="counter" >
+                                <p class="counter__active">1</p>
+                                <p class="counter__of">/4</p>
+                            </div>
+                            <div class="slider">
+                                <div class="box__item">
+                                    <div class="slider__item">
+                                        <img class="img-sm img-xl" src="/imgs/photo1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="box__item">
+                                    <div class="slider__item">
+                                        <img class="img-sm" src="/imgs/photo2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="box__item">
+                                    <div class="slider__item">
+                                        <img class="img-sm" src="/imgs/photo3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="box__item">
+                                    <div class="slider__item">
+                                        <img class="img-sm" src="/imgs/photo4.png" alt="">
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="slider__btns">
+                                <div class=" btns__item btn-left">
+                                    <img class="arrow-left" src="imgs/arrow-left.png" alt="">
+                                </div>
+                                <div class=" btns__item btn-right">
+                                    <img class="arrow-right" src="imgs/arrow-right.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="questions">
+            <div class="container-xxl">
+                <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class=".questions__img">
+                                <div class="green2">
+                                </div>
+                                <div class="questions__title">
+                                    <h2>Часто задаваемые вопросы</h2>
+                                </div>
+                                <div class="volkswagen">
+                                    <img src="imgs/volkswagen-jetta 1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <div class="col-12 col-lg-6" style="z-index: 1;">
+                            <div class="questions__box">
+                                <div class="questions__items">
+                                    <h3>Если прописка не в Санкт-Петербурге, могу ли я обучаться и сдавать экзамены в этом городе?</h3>
+                                    <img class="dop-info" src="imgs/Vector 4.png" alt="">
+                                </div>
+
+                                <div class="questions__answer">
+                                    <div class="answer__title">
+                                        <h3>Если прописка не в Санкт-Петербурге, могу ли я обучаться и сдавать экзамены в этом городе?</h3>
+                                        <img class="close-answer" src="imgs/close.png" alt="">
+                                    </div>
+                                    <p>По новому закону для автошколы и ГИБДД не имеет значения прописка, обучаться и сдавать экзамены 
+                                        может любой россиянин. Немного другая ситуация с иностранными гражданами. Чтобы обучаться и сдавать 
+                                        экзамены в ГИБДД, вам потребуется временная регистрация в Санкт-Петербурге или Ленинградской области
+                                         сроком не менее 6 месяцев.</p>
+                                </div>
+
+                                <div class="questions__items">
+                                    <h3>Какие документы нужны для поступления?</h3>
+                                    <img src="imgs/Vector 4.png" alt="">
+                                </div>
+                                <div class="questions__items">
+                                    <h3>На каких автомобилях проходит обучение?</h3>
+                                    <img src="imgs/Vector 4.png" alt="">
+                                </div>
+                                <div class="questions__items">
+                                    <h3>Можно ли заниматься теорией и практикой в разных филиалах?</h3>
+                                    <img src="imgs/Vector 4.png" alt="">
+                                </div>
+                                <div class="questions__items">
+                                    <h3>С какого возраста я могу приступить к обучение и сдавать экзамен в ГИБДД на получение водительского удостоверения?</h3>
+                                    <img src="imgs/Vector 4.png" alt="">
+                                </div>
+                                <div class="questions__btns">
+                                    <div class="questions__btn">
+                                        <img class="arrow-left" src="imgs/arrow-left.png" alt="">
+                                    </div>
+                                    <div class="questions__btn">
+                                        <img class="arrow-right" src="imgs/arrow-right.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="location">
+            <div class="container-xxl">
+                <div class="location-box">
+                    <h2>Как нас найти</h2>
+                    <div class="location__dropdown">
+
+                        <div class="dropdown ticons-group">
+                            <img class="flag" src="imgs/flag14-18.png" alt="">
+                          <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Калининский район
+                          </a>
+                          <ul class="dropdown-menu dropdown-shadow" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item link" href="#">Невский район</a></li>
+                              <li><a class="dropdown-item link" href="#">Выборгский район</a></li>
+                              <li><a class="dropdown-item link" href="#">Приморский район</a></li>
+                          </ul>
+                        </div>
+
+                    </div>
+                    <div class="location__map">
+                        <div class="container-xxl">
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.8125012629491!2d30.378314016214613!3d60.051335759964246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469634af3bc4d433%3A0xf289dab1e9de7a22!2z0L_RgC4g0JrRg9C70YzRgtGD0YDRiywgMzEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTUyNzY!5e0!3m2!1sru!2sru!4v1652877982672!5m2!1sru!2sru" width="1290" height="400" style="border:0; border-radius:10px; z-index: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="location__text">
+                                <h3>Учебные классы</h3>
+                                <p class="text-green">Пр. Культуры, д. 31, к.1</p>
+                                <p>С 12:30 до 19:00 по будням</p>
+                                <div class="text-info">
+                                    <a href="#">План входа</a>
+                                    <img src="imgs/Vector-right.png" alt="">
+                                </div>
+                                <hr>
+                                <p class="text-green">Пр. Культуры, д. 31, к.1</p>
+                                <p>С 12:30 до 19:00 по будням</p>
+                                <div class="text-info">
+                                    <a href="#">План входа</a>
+                                    <img src="imgs/Vector-right.png" alt="">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>    
+                </div> 
+            </div>
+
+            <div class="connection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="connection__img">
+                                <div class="green3"></div>
+                                <div class="connection__title">
+                                    <h2>Свяжитесь с нами!</h2>
+                                </div>
+                                <div class="kia">
+                                    <img src="imgs/kia.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6" style="z-index: 1;">
+                            <div class="connection__form">
+                                <div class="form">
+                                    <h2>Оставьте свои контактные данные</h2>
+                                    <input  class="form__user name" type="text" placeholder="Имя">
+                                    <input class="form__user phone" type="text" placeholder="Телефон">
+                                    <div class="checkbox">
+                                        <input type="checkbox" name="" id=""> <p style="padding: 10px; margin: 0;"> я согласен <a class="privacy-policy" href="https://pbs.twimg.com/media/EGDi5dNXUAMhBTR.jpg"> с политикой конфидециальности</a></p>
+                                    </div>
+                                    <button class="allo btn-red">Отправить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="container-fluid">
+                    <div class="footer__menu">
+                        <div class="container-xxl">
+                            <div class="footer__links">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <a class="footer-link logo" href="#">Логотип</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="footer-link link-d" href="">Категории</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="footer-link link-d" href="">Филиалы</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="footer-link link-d" href="">Преподаватели</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="footer-link link-d" href="">Инструкторы</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="footer-link link-d" href="">Наш автопарк</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="footer-link link-d" href="">Наш автодром</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="footer-link link-d" href="">Отзывы</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="footer-link link-d" href="">Контакты</a>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="footer__contacts">
+                                    <div class="row">
+
+                                        <div class="flex-box">
+                                            <div class="col-3">
+                                                <p class="rights p-0">© 2022 Все права защищены</p>    
+                                            </div>
+        
+                                            <div class="col-3">
+                                                <div class="footer__phone">
+                                                    <img src="imgs/phone18-18.png" alt="">
+                                                    <a class="nav-link" href="#"> <p class="fat">(999) 999–99–99</p></a>
+                                                    <a class="nav-link" href="#"><p class="fat">(111) 111–11–11</p></a>
+                                                </div>    
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="footer__mail">
+                                                    <a href="#">info@asp.ru</a>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-3">
+                                                <div class="footer__icons">
+                                                    <a href=""><img src="imgs/instagram.png" alt=""></a>
+                                                    <a href=""><img src="imgs/vk.png" alt=""></a>
+                                                    <a href=""><img src="imgs/facebook.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/slick.min.js"></script>
+    <script src="script/script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
